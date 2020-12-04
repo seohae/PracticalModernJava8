@@ -25,4 +25,14 @@ public class KoreaHouseAddress implements HouseAddress {
     public String getDetailAddress() {
         return detailAddress;
     }
+
+    /**
+     * default 메서드 오버라이드
+     * @return
+     */
+    @Override
+    public String getCountryCode() {
+        /* java8 추가) super 키워드를 이용해서 default 메서드를 호출하는 기능 사용 */
+        return HouseAddress.super.getCountryCode();
+    }
 }
