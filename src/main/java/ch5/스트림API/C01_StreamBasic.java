@@ -3,7 +3,7 @@ package ch5.스트림API;
 import java.util.Arrays;
 import java.util.List;
 
-public class StreamBasic {
+public class C01_StreamBasic {
     public static void main(String[] args) {
         /**
          자바 8에서 새롭게 제안된 스트림 API
